@@ -1,21 +1,26 @@
 {
   "development": {
     "username": "root",
-    "password": null,
-    "database": "exampledb",
-    "host": "localhost",
+    "password": "12345678",
+    "database": "gymtimeDB",
+    "host": "127.0.0.1",
+    "port": 3306,
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
-    "password": null,
-    "database": "testdb",
-    "host": "localhost",
-    "dialect": "mysql",
-    "logging": false
+    "password": "12345678",
+    "database": "gymtimeDB_test",
+    "host": "127.0.0.1",
+    "port": 3306,
+    "dialect": "mysql"
   },
   "production": {
-    "use_env_variable": "JAWSDB_URL",
+    "username": "root",
+    "password": "12345678",
+    "database": "gymtimeDB_production",
+    "host": "127.0.0.1",
+    "port": 3306,
     "dialect": "mysql"
   }
 }
