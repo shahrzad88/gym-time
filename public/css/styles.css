@@ -10,7 +10,7 @@ body {
   color: orange;
 }
 .heroImage {
-  background-image: url("images/workout.jpg");
+  background-image: url("../images/workout.jpg");
   background-color: black;
   width: 1439px;
   height: 850px;
