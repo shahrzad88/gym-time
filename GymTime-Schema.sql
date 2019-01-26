@@ -1,2 +1,2 @@
-DROP DATABASE IF EXISTS gymtimeDB;
+/* DROP DATABASE IF EXISTS gymtimeDB; */
 CREATE database gymtimeDB;
